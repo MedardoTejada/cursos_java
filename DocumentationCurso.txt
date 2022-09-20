@@ -51,6 +51,15 @@ Convencion de nombres en Java:
         Upper Camel Case: Inicia la primera letra con Mayuscula
         lower camel Case: inicia la primera letra con minuscula
 
+Tipos de datos:
+    El integer solo puede almacenar hasta 10 digitos
+    en los casos que se requiera utilizar mas de 10 caracteres, se puede usar el tipo de variable long, importante colocar una "L" mayuscula al final de los digitos
+    en caso de decimal podremos utilizar double si se requiere de algo bien preciso
+    o float si no tiene que ser tan preciso, solo que hay que colocar al final la "F" mayuscula
+    comillas dobles son para String, comillas simples para char y con los char solamente podemos colocar un elemento
+    A partir de JAVA 10, se puede usar solamente Var, y se entendera que tipo de variable es
+
+
                 notas random:
 lo que sea que se escriba en SE se puede implementar con EE
 
