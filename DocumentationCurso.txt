@@ -42,8 +42,16 @@ ByteCode - lo que entiende nuestra maquina virtual:
 
 Variables - Son un espacio de memoria al que le podemos asignar contenido:
 
+Convencion de nombres en Java:
+    Es sensible a mayusculas/minusculas
+    Todas las variables deben de comenzar con letra o alguno de estos dos simbolos $ _
+    Si se utiliza snake_case, luego del guion bajo se puede usar cualquiera entre letras, numeros y $ _
+    Las constantes deben de ser escritas en mayusculas cerradas y si son dos palabras poner guion bajo
+    Camel Case: Upper cuando estemos creando Clases, y variables, metodos siempre iniciar con lower
+        Upper Camel Case: Inicia la primera letra con Mayuscula
+        lower camel Case: inicia la primera letra con minuscula
 
-notas random:
+                notas random:
 lo que sea que se escriba en SE se puede implementar con EE
 
 en cuanto a SERVERS(proyectos en servidor, integraacion de dependencias,integracion de compilacion) para construir proyectos es Maven, pero algunos usan Gradle
