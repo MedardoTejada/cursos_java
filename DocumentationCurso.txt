@@ -29,6 +29,19 @@ Metodo main:
     se declara de la siguiente forma --> public static void main (parametros) { //acciones  }
     Sin este metodo el programa no se ejecutara
 
+Etapas del proceso de ejecucion (ejemplo con el proyecto HolaMundoJava):
+    1. Creamos el codigo fuente (lo que escribimos en el .java)
+    2. Al hacer Run: se ejecuta el compilador de java, leyo nuestro codigo y lo tradujo a un lenguaje de maquina o Byte Code(archivos .class)
+    3. Por ultimo se ejecuta la JVM (la maquina virtual)
+    -Por lo tanto Java es un Compilado e Interpretado: El compilado valida si todo esta bien escrito y luego la VM interpreta lo que se compilo
+
+ByteCode - lo que entiende nuestra maquina virtual:
+    Al hacer una ejecucion se nos creara una carpeta llamada "Out", esa carpeta contendra un archivo con el mismo nombre de nuestro Main
+    Si abrimos ese archivo, veremos datos en bytes, eso es lo que el compilador hizo y lo que enviara a la maquina virtual para que interprete
+    Esto es interesante, porque le agrega una capa de seguridad al no exponer el codigo fuente tan en plano.
+
+Variables - Son un espacio de memoria al que le podemos asignar contenido:
+
 
 notas random:
 lo que sea que se escriba en SE se puede implementar con EE
@@ -36,3 +49,8 @@ lo que sea que se escriba en SE se puede implementar con EE
 en cuanto a SERVERS(proyectos en servidor, integraacion de dependencias,integracion de compilacion) para construir proyectos es Maven, pero algunos usan Gradle
 en cuanto a  frameworks: Spring , su version mas usada es la 2.0
 en cuanto ORM: la mas utilizada es hybernate
+
+Java tiene una herramienta interactiva en dónde puedes ir probando segmentos de código en vez de realizar todo el proceso de creación de un programa en Java. Escribir, compilar y correr.
+    podemos utilizarla solo con Java 9 en adelante, por lo que si tenemos el 8 solo es de cambiarla con un comando
+    Teniendo Java 9+ podremos utilizar para entrar en este modo con el comando: jshell
+    En este momento podemos probar lineas de codigo java, importante colocar el punto y coma.
