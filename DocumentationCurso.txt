@@ -1,0 +1,38 @@
+        Notas de Cursos
+
+        Curso - introduccion a Java SE
+
+java se divide en dos tipos: Java SE y Java EE (standar y enterprise respectivamente).
+
+JDK(java development kit): esta compuesto por tres herramientas:
+    1. Java Runtime Enviroment JRE: maquina virtual, lo que lo hace ser multiplataforma ( que en cualquier SO pueda correr)
+    2. Compilador de Java: toma el lenguaje de java lo traduce a algo que la maquina virtual si pueda leer (byte code)
+    3. API de desarrollo: una base de elementos, de clases, codigo, etc. que contiene el JDK para que no partamos de cero.
+
+las versiones de Java con la abreviacion LTS es que el soporte se le da en largo tiempo (Long Time Support), el tiempo establecido es de 3 años.
+
+Oracle cobra por el uso de Java: solo deja Gratis si es para ambientes de desarrollo y para ambientes de testing
+Cuando se utiliza en ambiente de produccion, se cobra 2.5 dolares al mes por usuario de escritorio y 25 dolares por procesador aplicaicones de servidor
+
+Por esta razon existe las versiones OpenJDK, gratis y fue creada por la comunidad
+el problema de tener mantenimiento de la comunidad es que no es muy confiable, pero las personas comprometidas son de mucha experiencia, incluso dos compañias (red Hat y sun mycrosistem)
+
+IDE: enterno de desarrollo integrado
+    se puede programar en un blog de notas y compilar en terminal, pero para eso sirve IDE, nos da:
+        * Edicion de texto: colores didacticos, ayudas, etc
+        * Compilador: no hay que ejecutar aparte en la terminal
+        * Depurador:
+        * Constructor de interfaz grafica: para programas que requieren usar la interfaz
+
+Metodo main:
+    es el punto de entrada de nuestra aplicacion en java
+    se declara de la siguiente forma --> public static void main (parametros) { //acciones  }
+    Sin este metodo el programa no se ejecutara
+
+
+notas random:
+lo que sea que se escriba en SE se puede implementar con EE
+
+en cuanto a SERVERS(proyectos en servidor, integraacion de dependencias,integracion de compilacion) para construir proyectos es Maven, pero algunos usan Gradle
+en cuanto a  frameworks: Spring , su version mas usada es la 2.0
+en cuanto ORM: la mas utilizada es hybernate
